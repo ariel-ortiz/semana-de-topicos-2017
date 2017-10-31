@@ -1,0 +1,30 @@
+= Introducción a la programación para IoT con Python
+
+== Ligas útiles
+- https://www.python.org/downloads/release/python-2714/[Instalador de Python 2.7.14]
+- http://rgruet.free.fr/PQR27/PQR2.7.html[Python 2.7 Quick Reference]
+- http://www.pythonforbeginners.com/requests/using-requests-in-python[Using the Requests Library in Python]
+- http://dweet.io/[dweet.io: Ridiculously simple messaging for the Internet of Things]
+- http://pyserial.readthedocs.io/en/latest/pyserial.html[pySerial documentation]
+
+== Instalando paquetes requeridos
+
+Después de instalar Python 2.7, abre una terminal de línea de comando (`cmd.exe` en Windows) y teclea:
+
+----
+pip install requests
+----
+
+----
+pip install pyserial
+----
+
+*NOTA:* Si estás usando macOS o Linux posiblemente tengas que correr los comandos anteriores con privilegios de administrador. Para ello debes anteponerles la instrucción `sudo`. Por ejemplo:
+
+----
+sudo pip install requests
+----
+
+----
+sudo pip install pyserial
+----
